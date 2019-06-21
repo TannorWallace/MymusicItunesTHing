@@ -1,0 +1,22 @@
+*{
+  font-family: 'Electrolize', sans-serif;
+}
+
+body{
+  background-color: rgba(2, 1, 1, 0.719);
+}
+/* 
+.card-body{
+background-color: rgba(2, 2, 1, 0.719);
+} */
+
+img{
+  height: 200px;
+  width: 200px
+}
+
+button:hover{
+  color: burlywood !important;
+  background-color: black!important;
+box-shadow: 15px 15px 15px 10px !important;
+}
