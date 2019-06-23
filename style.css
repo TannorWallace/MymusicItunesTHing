@@ -4,11 +4,20 @@
 
 body{
   background-color: rgba(2, 1, 1, 0.719);
+  /* align-content: center !important; */
 }
-/* 
-.card-body{
-background-color: rgba(2, 2, 1, 0.719);
+
+/* .row{
+  justify-content: auto !important;
 } */
+
+
+.header{
+background-image:url(images/music-top-image.jpg);
+background-size: cover;
+height: 100vh;
+
+}
 
 img{
   height: 200px;
@@ -19,4 +28,10 @@ button:hover{
   color: burlywood !important;
   background-color: black!important;
 box-shadow: 15px 15px 15px 10px !important;
+}
+
+.player{
+  align-items: center;
+  width: 100%;
+  background: rgba(245, 202, 12, 0.719);
 }

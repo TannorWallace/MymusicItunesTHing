@@ -8,27 +8,35 @@
     <title>Music Is Fun!</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'>
     <link href="https://fonts.googleapis.com/css?family=Electrolize&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <!-- cheese -->
 </head>
 
 <body>
-    <div class="container-fluid">
 
+    <section class="container-fluid header">
+        <div class="row">
 
-    </div>
-    <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
-        <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
-        <div class=" col-md-12 input-group input-group-lg">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="inputGroup-sizing-lg"></span>
-            </div>
-            <input type="text" class="form-control input-group input-group-lg" name="artist"
-                placeholder="Artist Name" />
-            <button type="submit" class="btn btn-warning border border-dark btn-block mb-4 " id="get-music-button">Get
-                Music</button>
         </div>
-    </form>
+    </section>
+    <div class="container-fluid ">
+
+
+        <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
+            <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+            <div class=" col-md-12 input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fas fa-music"></i></span>
+                </div>
+                <input type="text" class="form-control input-group input-group-lg text-center border border-dark"
+                    name="artist" placeholder="Find your Music!" />
+                <button type="submit" class="btn btn-warning border border-dark btn-block mb-4 "
+                    id="get-music-button">Get Music</button>
+            </div>
+        </form>
+    </div>
     <div id="songs" class="row">
 
 

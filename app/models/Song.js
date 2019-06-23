@@ -12,16 +12,16 @@ export default class Song {
     // need a template use a Bootstrap card thing?
     get Template() {
         return `
+                
+                 <div class="col-12 col-md-3 p-2 d-flex justify-content-center">
   
-           
-                 <div class="card col-3 m-1">
-                    <div class="card-body border border-dark  ">
-                        <img src="${this.albumArt}" alt="Album Art"> 
+                    <div class="card border border-dark p-1 ">
+                        <img class="center" src="${this.albumArt}" alt="Album Art"> 
                         <h5 class="card-title">Artist:${this.artist}</h5>
                         <h5 class="card-text ">Title:${this.title}</h5>
                         <h5 class="card-text">Collection:${this.collection}</h5> 
                         <h5 class="card-text">Price:${this.price}</h5>
-                      Preview: <audio controls src="${this.preview}"></audio>
+                      Preview: <audio class="player mb-1" controls src="${this.preview}"></audio>
 
                     </div>
                  </div>
