@@ -4,13 +4,9 @@
 
 body{
   background-color: rgba(2, 1, 1, 0.719);
-  /* align-content: center !important; */
+  padding: auto;
+  margin:auto;
 }
-
-/* .row{
-  justify-content: auto !important;
-} */
-
 
 .header{
 background-image:url(images/music-top-image.jpg);
@@ -35,3 +31,11 @@ box-shadow: 15px 15px 15px 10px !important;
   width: 100%;
   background: rgba(245, 202, 12, 0.719);
 }
+/* .title{
+  align-items: center;
+} */
+ h1 .toprow{
+   text-align: center;
+   color: rgba(251, 2, 2, 0.993);
+   
+ }

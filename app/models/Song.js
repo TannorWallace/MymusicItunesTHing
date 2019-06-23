@@ -13,15 +13,15 @@ export default class Song {
     get Template() {
         return `
                 
-                 <div class="col-12 col-md-3 p-2 d-flex justify-content-center">
+                 <div class="col-12 col-md-3 ">
   
-                    <div class="card border border-dark p-1 ">
+                    <div class="card border border-dark ">
                         <img class="center" src="${this.albumArt}" alt="Album Art"> 
                         <h5 class="card-title">Artist:${this.artist}</h5>
                         <h5 class="card-text ">Title:${this.title}</h5>
                         <h5 class="card-text">Collection:${this.collection}</h5> 
                         <h5 class="card-text">Price:${this.price}</h5>
-                      Preview: <audio class="player mb-1" controls src="${this.preview}"></audio>
+                      Preview: <audio class="player" controls src="${this.preview}"></audio>
 
                     </div>
                  </div>
