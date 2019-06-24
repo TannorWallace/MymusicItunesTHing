@@ -6,6 +6,9 @@ body{
   background-color: rgba(2, 1, 1, 0.719);
   padding: auto;
   margin:auto;
+     background-image:url(images/galaxy-bg2-image.jpg);
+background-size: cover;
+height: 100vh;
 }
 
 .header{
@@ -34,7 +37,7 @@ box-shadow: 15px 15px 15px 10px !important;
 /* .title{
   align-items: center;
 } */
- h1 .toprow{
+ h1{
    text-align: center;
    color: rgba(251, 2, 2, 0.993);
    

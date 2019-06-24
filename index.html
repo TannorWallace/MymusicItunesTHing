@@ -19,38 +19,43 @@
     <section class="container-fluid header">
         <div class="row">
             <div class="col-12 col-md-5 offset-md-3 toprow">
-                <h1>Search for your favorite musicians!</h1>
+                <h1></h1>
             </div>
+            <section class="container-fluid header">
+                <div class="row">
+                    <div class="col-12 col-md-5 offset-md-3 toprow">
+                        <h1>Search for your favorite musicians!</h1>
+                    </div>
 
-
-        </div>
-    </section>
-
-
-    <div class="container-fluid ">
-
-
-        <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
-            <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
-            <div class=" col-md-12 input-group input-group-lg">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fas fa-music"></i></span>
                 </div>
-                <input type="text" class="form-control input-group input-group-lg text-center border border-dark"
-                    name="artist" placeholder="Find your Music!" />
-                <button type="submit" class="btn btn-warning border border-dark btn-block mb-4 "
-                    id="get-music-button">Get Music</button>
+            </section>
+
+
+            <div class="container-fluid bg-image">
+
+
+                <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
+                    <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+                    <div class=" col-md-12 input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fas fa-music"></i></span>
+                        </div>
+                        <input type="text"
+                            class="form-control input-group input-group-lg text-center border border-dark" name="artist"
+                            placeholder="Find your Music!" />
+                        <button type="submit" class="btn btn-warning border border-dark btn-block mb-4 "
+                            id="get-music-button">Get Music</button>
+                    </div>
+                </form>
             </div>
-        </form>
-    </div>
-    <div id="songs" class="row">
+            <div id="songs" class="row">
 
 
 
 
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="module" src="app/main.js"></script>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script type="module" src="app/main.js"></script>
 </body>
 
 </html>
