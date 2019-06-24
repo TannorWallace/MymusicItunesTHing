@@ -16,7 +16,7 @@ export default class Song {
                 
                  <div class="col-12 col-md-3  mb-1">
   
-                    <div class="card border border-dark ">
+                    <div class="card border border-warning ">
                         <img class="center" src="${this.albumArt}" alt="Album Art"> 
                         <h5 class="card-title">Artist:${this.artist}</h5>
                         <h5 class="card-text ">Title:${this.title}</h5>
