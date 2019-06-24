@@ -20,7 +20,7 @@ export default class Song {
                         <h5 class="card-title">Artist:${this.artist}</h5>
                         <h5 class="card-text ">Title:${this.title}</h5>
                         <h5 class="card-text">Collection:${this.collection}</h5> 
-                        <h5 class="card-text">Price:${this.price}</h5>
+                        <h5 class="card-text">Price:$${this.price}</h5>
                       Preview: <audio class="player" controls src="${this.preview}"></audio>
 
                     </div>
