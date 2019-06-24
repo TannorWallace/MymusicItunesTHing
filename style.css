@@ -47,3 +47,6 @@ box-shadow: 15px 15px 15px 10px !important;
  .top-icon .bot-icon{
    color: rgba(240, 117, 16, 0.993)!important;
  }
+ .full-row{
+   height: 100%;
+ }
